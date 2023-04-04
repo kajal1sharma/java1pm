@@ -8,7 +8,7 @@ public class nestedIfElse {
         int b=70;
 
         int result = a>b?a+b:a-b;
-        ?:
+        //?:
         // int result = Expression1 ? Expression2 : Expression3;
         System.out.println(result);
 
