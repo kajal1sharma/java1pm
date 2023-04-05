@@ -6,10 +6,14 @@ public class nestedIfElse {
         int a=90;
         int b=70;
 
-        int result = a>b?a+b:a-b;
+        //expression
+        int result = (a>b)||(a>100 && a<200) ? a+20 : a+90;
+        System.out.println(result);
+
+        //int result = a>b?a+b:a-b;
         //?:
         // int result = Expression1 ? Expression2 : Expression3;
-        System.out.println(result);
+        // System.out.println(result);
 
         boolean raining=true;
         boolean umbrella =false;
