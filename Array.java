@@ -1,6 +1,17 @@
 import java.util.Scanner;
 class Array{
     public static void main(String[] args) {
+        int arr[] = new int[5];
+        arr[0]=90;
+        arr[1]=67;
+        arr[2]=57;
+        arr[3]=99;
+        arr[4]=13;
+
+        int arr1[] ={12 , 14 ,54,234,34,1,-90};
+        for(int i=0;i<arr1.length; i++){
+            System.out.println(arr1[i]);
+        }
        Scanner sc  = new Scanner(System.in);
     //     String  a =sc.nextLine();
 
