@@ -25,7 +25,7 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         char choice;
-        
+        //while(true)
         for(;true;){
             System.out.println("Do you want to do calculation");
             choice = scanner.next().charAt(0);
@@ -36,8 +36,13 @@ public class Calculator {
                 int num2 = scanner.nextInt();
                 System.out.println("which operator");
                 char sym = scanner.next().charAt(0);
-                int result = calc(num1, num2, sym);
-                System.out.println("the result is : "+result);
+                if(sym == '+' || sym == '-' || sym =='*' || sym == '/'){  
+                    int result = calc(num1, num2, sym);
+                    System.out.println("the result is : "+result);
+                }
+                else{
+                    System.out.println("the symbol is incompatible");
+                }
             }
             else{
                 break;
