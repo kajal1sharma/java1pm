@@ -13,10 +13,6 @@ public class ReturnFunc {
         int b =sc.nextInt();
         int result = product(a,b);
         System.out.println(result);
-         
-      
-
         
-
     }
 }
