@@ -23,9 +23,19 @@ class Human{
 public class oops {
 public static void main(String[] args) {
     
-    Human h1=null;
-    h1= new Human();
-    h1.name="shreya";
+    Human h1=new Human();
+    Human h2=new Human();
+    Human h3=new Human();
+
+   h1.name="shreya";
+    h1.color="black";
+    h1.height=152;
+    h1.weight=60;
+    h1.eyes=2;
+
+   h2.name="priya";
+   
+   h3.name="tina";
 
     System.out.println(h1.name);
 
