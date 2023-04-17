@@ -1,13 +1,15 @@
 
 class Human{
-    String name;
-    int eyes;
-    int height;
-    String color;
-    int weight;
 
-    void run(){
+    private String name;
+    private int eyes;
+    private int height;
+    private String color;
+    private int weight;
+
+    void  run(){
         System.out.println("i run");
+        name="tina";
     }
 
     void eatfood(){
@@ -20,6 +22,27 @@ class Human{
 }
 
 
+class BankAccount{
+    private int accountNumber;
+    private int pin;
+    private int totalAmount;
+
+    public void withdraw(){
+        if(totalAmount>3000){
+            System.out.println("allow withdrawal")
+        }
+        else{
+            System.out.println("dont");
+        }
+    }
+    public void credit(){
+
+    }
+
+
+
+}
+
 public class oops {
 public static void main(String[] args) {
     
@@ -27,14 +50,18 @@ public static void main(String[] args) {
     Human h2=new Human();
     Human h3=new Human();
 
-   h1.name="shreya";
-    h1.color="black";
-    h1.height=152;
-    h1.weight=60;
-    h1.eyes=2;
+//    h1.name="shreya";
+//     h1.color="black";
+//     h1.height=152;
+//     h1.weight=60;
+//     h1.eyes=2;
+    h1.eatfood();
+    h1.sleep();
+    h1.run();
+
 
    h2.name="priya";
-   
+
    h3.name="tina";
 
     System.out.println(h1.name);
