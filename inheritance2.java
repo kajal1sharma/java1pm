@@ -74,15 +74,20 @@ class Audi extends Car{
 }
 public class inheritance2 {
     public static void main(String[] args) {
-        Car c1= new Car();
-        c1.setSeats(12);
+        Car c1=new Car();
+        Car c2=new Car(3);
+        Car c3= new Car(3,3);
+
+        System.out.println(c3.lights);
+        // Car c1= new Car();
+        // c1.setSeats(12);
     
 
-        Audi a1= new Audi();
-        a1.setSeats(13);
-        
-        BMW b1= new BMW();
+        // Audi a1= new Audi();
+        // a1.setSeats(13);
 
-        System.out.println(c1.getWindows());        
+        // BMW b1= new BMW();
+
+        // System.out.println(c1.getWindows());        
     }
 }
