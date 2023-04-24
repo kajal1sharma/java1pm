@@ -26,6 +26,12 @@ class Toy{
         this.color=color;
         this.Quantity=Quantity;
     }
+
+    void work(){
+        System.out.println("this toy is sliding");
+    }
+    
+
 }
 
 
@@ -36,9 +42,11 @@ class Gun extends Toy{
         super("red",Quantity);
         this.size=size;
     }
-
+    void work(){
+        System.out.println("this gun fire bullets");
+    }
     //funvtion overloading
-
+    
 }
 
 class Calculator{
@@ -65,15 +73,22 @@ class Calculator{
 class Constructor{
 
     public static void main(String[] args) {
-        Toy t= new Toy();
-        Toy t22 =new Toy(23);
-        Toy t2=new Toy("red",234);
-        Gun machineGun = new Gun(120,23 );
-       
-        Calculator c=new Calculator();
-        c.add();
-        c.add(90);
-        c.add(45,78);
+        // Toy t= new Toy();
+        // Toy t22 =new Toy(23);
+        // Toy t2=new Toy("red",234);
+        // Gun machineGun = new Gun(120,23 );
+        
+
+        Toy obj = new Gun(120,34);
+        System.out.println(obj.Quantity+"  "+obj.color+"  ");//size cannot be referred by parent reference
+        Gun obj2 =(Gun)new Toy();
+        System.out.println(obj2.color+" "+obj2.Quantity+" "+obj2.size);
+
+        //machineGun.work();
+        // Calculator c=new Calculator();
+        // c.add();
+        // c.add(90);
+        // c.add(45,78);
 
     }
 }
