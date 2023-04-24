@@ -28,11 +28,52 @@ class Toy{
     }
 }
 
+
+class Gun extends Toy{
+    int size;
+
+    Gun(int size, int Quantity){
+        super("red",Quantity);
+        this.size=size;
+    }
+
+    //funvtion overloading
+
+}
+
+class Calculator{
+    void add(){
+        int a=90;
+        int b=89;
+        System.out.println(a+b);
+    }
+//overloafed function
+    void add(int a){
+        System.out.println(a+a);
+    }
+    void add(int a , int b){
+        System.out.println(a+b);
+    }
+    void add(int a, float b){
+        System.out.println(a+b);
+    }
+    int add(int c , int d, int e){
+        return c+d+e;
+    }
+}
+
 class Constructor{
 
     public static void main(String[] args) {
         Toy t= new Toy();
         Toy t22 =new Toy(23);
         Toy t2=new Toy("red",234);
+        Gun machineGun = new Gun(120,23 );
+       
+        Calculator c=new Calculator();
+        c.add();
+        c.add(90);
+        c.add(45,78);
+
     }
 }
