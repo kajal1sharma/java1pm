@@ -11,7 +11,7 @@ abstract class Developer1 implements Database{
     
     public void connect(int abc){
         System.out.println(url);
-        url="sjfdsnafksdf";
+      
         System.out.println("connect function implement");
     }
 }
