@@ -22,7 +22,10 @@ abstract class Developer2 extends Developer1 {
 }
 
 public class Developer extends Developer2{
+    final int count =12;
+    final static int x=90;
     public void find(){
+        // count=90;
         System.out.println("find fucntion implemented");
     }
     public static void main(String[] args) {
