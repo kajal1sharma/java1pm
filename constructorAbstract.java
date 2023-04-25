@@ -6,6 +6,9 @@ abstract class Vehicle{
         tyres=90;
 
     }
+
+   // abstract Vehicle(int tyres, int x);
+   
     private Vehicle(int tyres){
         this.tyres=tyres;
     }
