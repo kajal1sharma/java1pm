@@ -6,7 +6,7 @@ public class Bus4 extends Vehicle2 {
             this.w=w;
             this.x=x;
             this.z=z;
-           // this.y=y;
+            this.y=y;
             this.getInfo();
         }
     

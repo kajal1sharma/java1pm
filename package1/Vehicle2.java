@@ -1,6 +1,6 @@
 package package1;
 
-public class Vehicle2 {
+class Vehicle2 {
     protected int x;
     private int y;
      int z;
