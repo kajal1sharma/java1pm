@@ -18,7 +18,7 @@ class Vehicle{
     }
 }
 
-class Bus{
+class Bus {
     int w;
     String s;
     Vehicle v;
