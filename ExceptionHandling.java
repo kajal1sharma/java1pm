@@ -1,18 +1,36 @@
+import java.util.Scanner;
+
 public class ExceptionHandling {
-    public static void main(String[] args) {
+
+    static void doSomethingMore(){
+        
+            int a=90/0;
+        
+    }
+    static void doSomething(){
+        System.out.println("iam stat 1 in doSomething");
         try{
-            int a[]=new int[5];
-            a[6]=89;
+            doSomethingMore();
+            System.out.println("hello world");
         }
-        catch(ArithmeticException exe){
-            System.out.println(exe);
-            int a=13/4;
-            System.out.println(a);
+        catch(Exception e){
+           System.out.println(e);
         }
-        catch(Exception exe){
-            System.out.println(exe);
-            System.out.println("some other exception");
-        }
+        
+        System.out.println("iam stat 2 in doSomething");
+    }
+    public static void main(String[] args) {
+      
+         doSomething();
+        // try{
+        //     Scanner sc=new Scanner(System.in);
+        //     int b=sc.nextInt();
+        //     int a=90/b;
+        //     System.out.println("a value is : " +a);
+        // }
+        // catch(Exception e){
+        //     System.out.println(e);
+        // }
 
         System.out.println("hi iam a statement in normal flow");
 
