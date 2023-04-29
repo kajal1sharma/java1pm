@@ -1,9 +1,20 @@
 
 class Student {
-    int rollNo;
+    private  int rollNo;
     String name;
     int standard;
 
+    public int getRollNo() {
+        return rollNo;
+    }
+    public void setRollNo(int RollNo) throws StudentException{
+    
+            if(RollNo>30 || RollNo<1){
+                throw new StudentException("roll no is not valid"); 
+            }
+        this.rollNo=RollNo;
+
+    }
 }
 class StudentException extends Exception{
 
@@ -14,32 +25,17 @@ class StudentException extends Exception{
     @Override
     public String getMessage() {
         // TODO Auto-generated method stub
-        return super.getMessage()+"this message is overriden";
+        return super.getMessage();
     } 
 
 }
 
 
 public class ExceptionHandling2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws StudentException {
         int connection =5;
-        try{
-            
-            connection++;
-            if(connection>5){
-                Exception e= new StudentException("student exception");
-                throw(e);
-            }
-            else{
+        Student st =new Student();
 
-            }
-
-        }
-        catch(Exception ex){
-            System.out.println(ex.getMessage());
-        }
-        finally{
-            connection=0;
-        }
+        st.setRollNo(31);
     }
 }
