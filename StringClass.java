@@ -1,45 +1,118 @@
 public class StringClass {
-    public static void main(String[] args) {
+
+
+     static String reverse(String str){
+
+      String res ="";
+      for(int i=str.length()-1 ; i>=0;i--){
+        res+=str.charAt(i);
+        //res=res+str.charAt(i);
+      }
+
+      return res;
+     }
+
+    //  static boolean isPalindrome(String str){
+
+    //   // String strrev= reverse(str);
+    //   // return strrev.equals(str);
+
+  
+    //   for(int i=0,j=str.length()-1;i<str.length()/2;i++,j--){
+
+    //       if(str.charAt(i)==str.charAt(j)){
+    //         continue;
+            
+    //       }
+    //       else{
+    //         return false;
+    //       }
+         
+    //   }
+    // return true;
+
+    // }
+
+
+    // static String replaceChar(String str, char c){
+
+    //   String result="";
+    //   for(int i=0;i<str.length();i++){
+    //     if(str.charAt(i)==c){
+    //       result = str.substring(0, i)+str.substring(i+1);
+    //       str=result;
+    //       i--;
+    //     }
+    //   }
+
+    //   return  result;
+    // }
+    static String replace2(String str){
+
+      String str2[]=str.split(" ");
+      str="";
+      
+      for(String r: str2){
         
+        str=str +reverse(r)+" ";
+        
+      }
+      return str;
+    }
+    public static void main(String[] args) {
+
+
+      //reverse words in a string
+
+      String str= "iam a new String";
+      System.out.println(replace2(str));      
+      //output=> "mai a wen gnirtS";
+
+      //remove a particular charater from a string
+
+      // String str = "abc d sskdfjksfdk";
+      // char remove = 's';
+
+      // String result =str.replaceAll("s", "");
+      // System.out.println(result);
+      // String result = replaceChar(str, remove);
+      // System.out.println(result);
+
+
+
+      //ans => "abc d kdfjkfdk"
+
+      //check if your string is palindrome or not
+
+      // String s1="abcdcba";
+      // String s2="abcdefrgacba";
+
+      // System.out.println(isPalindrome(s1));
+      // System.out.println(isPalindrome(s2));
+
+
 
       //"abcdef"=>" +aeiou+bcd+aeiou+f"
 
-        String str="4Achievers is a institute";
-        char arr[] ={'a','b','c','d','e','f'};
-        String str2= new String(arr);
+        // String str="4Achievers is a institute";
+        // char arr[] ={'a','b','c','d','e','f'};
+        // String str2= new String(arr);
+
+        // String str3="";
+        // System.out.println(str2);
         
+        // for(int i=0;i<str2.length();i++){
+        //   System.out.println(str2.charAt(i));
+        //   char c= str2.charAt(i);
+        //   if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u'){
+        //       str3=str3+"+aeiou+";
+        //   }
+        //   else{
+        //       str3=str3+c;
+        //   }
+        // }
 
-
-        String str3="";
-        for(int i=0;i<str2.length();i++){
-          if(str2.charAt(i)=='a'){
-            str3=str3+str2.replace("a", "+aeiou+");
-            
-          }
-         else if(str2.charAt(i)=='e'){
-            str3=str3+str2.replace("e", "+aeiou+");
-            
-          }
-          else if(str2.charAt(i)=='i'){
-            str3=str3+str2.replace("i", "aeiou");
-            
-          }
-         else  if(str2.charAt(i)=='o'){
-            str3=str3+str2.replace("o", "aeiou");
-            
-          }
-          else if(str2.charAt(i)=='u'){
-            str3=str3+str2.replace("u", "aeiou");
-            
-          }
-          else{
-            str3=str3+str2.charAt(i);
-            
-          }
-        }
-        System.out.println(str2);
-        System.out.println(str3);
-
+        // System.out.println(str3);
 
         // String st=str.replace("is", "is not");
         // System.out.println(st);
