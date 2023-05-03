@@ -31,7 +31,5 @@ public class StringBuild {
         System.out.println(str.equals(str2));
         System.out.print(str.append(34.4f));
         
-
-        
     }
 }
