@@ -26,8 +26,12 @@ public class CollectionFramework {
         //     System.out.println(arr[i]);
         // }
         li.remove(5);
-        li.add(0,67 );
-
+        li.add(3,67 );
+        //li.clear();
+        System.out.println(li.contains(68));
+        Integer i=li.get(2);
+        
+        li.isEmpty();
         System.out.println(li);
         // Iterator i =li.iterator();
 
