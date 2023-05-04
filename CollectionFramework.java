@@ -20,13 +20,20 @@ public class CollectionFramework {
         li.add(23);
         li.add(45);
         li.add(65);
-        li.size();
+        //System.out.println("list size = "+li.size());
+        // Object arr[]=li.toArray();
+        // for(int i=0;i<arr.length;i++){
+        //     System.out.println(arr[i]);
+        // }
+        li.remove(5);
+        li.add(0,67 );
 
-        Iterator i =li.iterator();
+        System.out.println(li);
+        // Iterator i =li.iterator();
 
-        while(i.hasNext()){
-         System.out.println(" next value is : "+i.next());
-        }
+        // while(i.hasNext()){
+        //  System.out.println(" next value is : "+i.next());
+        // }
 
 
 
@@ -35,9 +42,14 @@ public class CollectionFramework {
 
         // }
 
+        ArrayList<Integer> arrlist =new ArrayList<>();
+        arrlist.add(90);
+        arrlist.addAll(0, li);
+        System.out.println(arrlist);
 
 
-        // ArrayList<Integer> arrlist =new ArrayList<>(li);
+        //ArrayList<Integer> arrlist =new ArrayList<>(li);
+    
         // ArrayList<Integer> arrlist2=new ArrayList<>(20);
         // System.out.println(arrlist);
         // int i=li.get(2);
