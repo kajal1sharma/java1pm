@@ -1,0 +1,210 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array",
+            "request": "launch",
+            "mainClass": "Array",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Array2",
+            "request": "launch",
+            "mainClass": "Array2",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Arrayfunction",
+            "request": "launch",
+            "mainClass": "Arrayfunction",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "CollectionFramework",
+            "request": "launch",
+            "mainClass": "CollectionFramework",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Constructor2",
+            "request": "launch",
+            "mainClass": "Constructor2",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Developer",
+            "request": "launch",
+            "mainClass": "Developer",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Dowhile",
+            "request": "launch",
+            "mainClass": "Dowhile",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandling2",
+            "request": "launch",
+            "mainClass": "ExceptionHandling2",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Function",
+            "request": "launch",
+            "mainClass": "Function",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Identifiers",
+            "request": "launch",
+            "mainClass": "Identifiers",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "IfElse",
+            "request": "launch",
+            "mainClass": "IfElse",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Modifier3",
+            "request": "launch",
+            "mainClass": "Modifier3",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Modifiers2",
+            "request": "launch",
+            "mainClass": "Modifiers2",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Oops2",
+            "request": "launch",
+            "mainClass": "Oops2",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "ReturnFunc",
+            "request": "launch",
+            "mainClass": "ReturnFunc",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "StringBuild",
+            "request": "launch",
+            "mainClass": "StringBuild",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "StringClass",
+            "request": "launch",
+            "mainClass": "StringClass",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "SwitchCase",
+            "request": "launch",
+            "mainClass": "SwitchCase",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Whileloop",
+            "request": "launch",
+            "mainClass": "Whileloop",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "Developer(1)",
+            "request": "launch",
+            "mainClass": "classesjava.Developer",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "inheritance2",
+            "request": "launch",
+            "mainClass": "inheritance2",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "nestedIfElse",
+            "request": "launch",
+            "mainClass": "nestedIfElse",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "oops",
+            "request": "launch",
+            "mainClass": "oops",
+            "projectName": "java_e9452a23"
+        },
+        {
+            "type": "java",
+            "name": "rest",
+            "request": "launch",
+            "mainClass": "rest",
+            "projectName": "java_e9452a23"
+        }
+    ]
+}
