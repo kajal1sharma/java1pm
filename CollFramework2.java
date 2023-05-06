@@ -1,6 +1,7 @@
 import java.util.LinkedList;
 import java.util.Stack;
 import java.util.Vector;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -9,21 +10,30 @@ public class CollFramework2 {
         
 
 
-        HashSet<String> hs = new HashSet<>();
-        hs.add("first");
-        hs.add("first");
+        HashMap<Integer,String> hm =new HashMap<>();
+        hm.put(1, "mina");
+        hm.put(45,"aman");
+        hm.put(36,"tina");
 
-        // System.out.println(hs);
+        System.out.println(hm);
 
-        HashSet<Integer> hs2 =new HashSet<>();
-        hs2.add(1);
-        hs2.add(1);
-        hs2.add(5);
-        hs2.add(4);
-        hs2.add(3);
-        hs2.add(5);
-        hs2.add(2);
-        System.out.println(hs2);
+        System.out.println(hm.containsKey(23));
+        System.out.println(hm.get(45));
+        // HashSet<String> hs = new HashSet<>();
+        // hs.add("first");
+        // hs.add("first");
+
+        // // System.out.println(hs);
+
+        // HashSet<Integer> hs2 =new HashSet<>();
+        // hs2.add(1);
+        // hs2.add(1);
+        // hs2.add(5);
+        // hs2.add(4);
+        // hs2.add(3);
+        // hs2.add(5);
+        // hs2.add(2);
+        // System.out.println(hs2);
         // Vector<String> vector = new Vector<>(12, 40);
 
         // vector.add("first");
