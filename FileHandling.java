@@ -1,25 +1,37 @@
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
-
+import java.io.InputStreamReader;
 public class FileHandling {
     public static void main(String[] args) throws Exception{
 
 
-        File f= new File("Dowhile.java");
-       
-        FileReader fr1 =new FileReader(f);
-        
-        int ch=fr1.read();
-        while(ch!=-1){
-            System.out.print((char)ch);
-            ch  =  fr1.read();
+        try{
+
+         InputStreamReader i =new InputStreamReader(System.in);
+         BufferedReader bf = new BufferedReader(i);
+         String str=bf.readLine();
+         System.out.println(str);
         }
+        catch(Exception e){
+
+        }
+
+        // File f= new File("Dowhile.java");
+       
+        // FileReader fr1 =new FileReader(f);
+        
+        // int ch=fr1.read();
+        // while(ch!=-1){
+        //     System.out.print((char)ch);
+        //     ch  =  fr1.read();
+        // }
         
 
 
 
-        // FileWriter fw =new FileWriter(f);
+        // FileWriter fw =new FileWriter(f);                    
         // fw.write("this is a new string");
         // fw.close();
         // FileWriter fw1 =new FileWriter(f, true);
