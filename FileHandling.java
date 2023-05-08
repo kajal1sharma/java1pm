@@ -2,21 +2,23 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 public class FileHandling {
     public static void main(String[] args) throws Exception{
 
 
-        try{
+         
+         FileReader fr=new FileReader("abc.txt");
+         BufferedReader bf2= new BufferedReader(fr);
+         String str2= bf2.readLine();
+         System.out.println(str2);
 
          InputStreamReader i =new InputStreamReader(System.in);
          BufferedReader bf = new BufferedReader(i);
          String str=bf.readLine();
          System.out.println(str);
-        }
-        catch(Exception e){
-
-        }
+        
 
         // File f= new File("Dowhile.java");
        
