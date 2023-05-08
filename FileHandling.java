@@ -1,18 +1,35 @@
 import java.io.File;
+import java.io.FileReader;
 import java.io.FileWriter;
 
 public class FileHandling {
     public static void main(String[] args) throws Exception{
 
 
-        File f= new File("abc.txt");
-        FileWriter fw =new FileWriter(f);
-        fw.write("this is a new string");
-        fw.close();
-        FileWriter fw2 =new FileWriter(f, true);
-        fw2.write("\nthis is new string 2");
-        fw2.close();
+        File f= new File("Dowhile.java");
+       
+        FileReader fr1 =new FileReader(f);
+        
+        int ch=fr1.read();
+        while(ch!=-1){
+            System.out.print((char)ch);
+            ch  =  fr1.read();
+        }
+        
 
+
+
+        // FileWriter fw =new FileWriter(f);
+        // fw.write("this is a new string");
+        // fw.close();
+        // FileWriter fw1 =new FileWriter(f, true);
+        // FileWriter fw2 =new FileWriter(f, false);
+        // fw2.write("\nthis is new string 2");
+        // fw2.close();
+
+        // FileWriter fw3= new FileWriter("Dowhile.java");
+        // fw3.write("kfjdkgs");
+        // FileWriter fw4 =new FileWriter("Dowhile.java", true);
 
 
         // File f = new File("abc.txt");
