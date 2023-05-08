@@ -1,2 +1,2 @@
-this is a new file 
-and contains some characters
+this is a new string
+this is new string 2
